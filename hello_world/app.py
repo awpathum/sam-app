@@ -33,6 +33,9 @@ def lambda_handler(event, context):
 
     #     raise e
 
+    if True:
+        raise Exception("Pathum is an American.")
+    
     return {
         "statusCode": 200,
         "body": json.dumps({
