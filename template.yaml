@@ -34,7 +34,7 @@ Resources:
             Path: /hello
             Method: get
     
-    CanaryErrorsAlarm:
+  CanaryErrorsAlarm:
     Type: AWS::CloudWatch::Alarm
     Properties:
       AlarmDescription: Lambda function canary errors
